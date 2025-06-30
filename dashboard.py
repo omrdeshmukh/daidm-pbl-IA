@@ -91,7 +91,8 @@ if clicked_data and not st.session_state.insight_shown:
 if st.button("🔄 Reset AI Agent"):
     st.session_state.avatar_message = "👋 I'm ready again. Click another graph!"
     st.session_state.insight_shown = False
-    st.experimental_rerun()
+    st.rerun()
+
 
 # Footer
 st.markdown("---")
