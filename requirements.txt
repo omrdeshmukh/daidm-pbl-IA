@@ -1,7 +1,0 @@
-# ===== File: requirements.txt =====
-# Core dependencies
-streamlit
-pandas
-plotly
-openpyxl
-openai
